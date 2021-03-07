@@ -4,7 +4,6 @@ body{
     background-color: pink;
 }
 .logo h1{
-    border: 5px dotted black;
     color: blue;
     margin: 20px 60px;
     font-family: 'Fascinate', cursive;;
