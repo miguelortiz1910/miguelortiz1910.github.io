@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    width: 100%; height: auto;
+    width: 100%;
     background-color: pink;
 }
 .logo h1{
@@ -17,7 +17,7 @@ body{
     width: 400px;
     height: 80px;
     border: 1px solid red;
-    margin: 0 auto;
+    margin: 0 30px;
 }
 .logo:hover{
     border: 10px solid rgb(88, 8, 179);
@@ -35,7 +35,7 @@ body{
 
 .main-content h1{
     width: 400px;
-    margin: 0 auto;
+    margin: 0 60px;
     
 }
 .main-content img{
@@ -45,7 +45,8 @@ body{
     width: fit-content;
 }
 .main-content h2{
-    margin: 20px auto;
+    margin: 0 auto;
+    text-align:center;
     width: fit-content;
     color: pink;
 }
