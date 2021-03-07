@@ -1,6 +1,6 @@
 body{
     margin: 0 auto;
-    width: 100%;
+    width: 100%; height: auto;
     background-color: pink;
 }
 .logo h1{
@@ -8,6 +8,7 @@ body{
     margin: 20px 60px;
     font-family: 'Fascinate', cursive;;
     width:300px;
+    
     
     }
 .logo{
@@ -17,7 +18,7 @@ body{
     width: 400px;
     height: 80px;
     border: 1px solid red;
-    margin: 0 30px;
+    margin: 0 40px;
 }
 .logo:hover{
     border: 10px solid rgb(88, 8, 179);
@@ -30,12 +31,13 @@ body{
     
 }
 .main-content{  
-    margin: 20px auto;
+    margin: 30px auto;
+
 }
 
 .main-content h1{
     width: 400px;
-    margin: 0 60px;
+    margin: 0 80px;
     
 }
 .main-content img{
@@ -45,9 +47,9 @@ body{
     width: fit-content;
 }
 .main-content h2{
-    margin: 0 auto;
-    text-align:center;
+    margin: 20px auto;
     width: fit-content;
+    text-align:center;
     color: pink;
 }
 
