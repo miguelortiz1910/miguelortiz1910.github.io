@@ -1,13 +1,13 @@
 body{
     height: 0px; width: 400px;
     margin: 0 auto;
-    background-image:url("img/3b8ad2c7b1be2caf24321c852103598a.jpg");
+    background-image:url("3b8ad2c7b1be2caf24321c852103598a.jpg");
 }
 .Main-page{
     height: 700px; width: 392px;
     margin: 0 auto;
     text-align:center;
-    background-image:url("img/3b8ad2c7b1be2caf24321c852103598a.jpg");
+    background-image:url("3b8ad2c7b1be2caf24321c852103598a.jpg");
     background-size: cover;
 }
 
@@ -49,7 +49,7 @@ body{
 }
 
 .squares-photos img:hover{
-    background-image: url("img/Untitled.png");
+    background-image: url("Untitled.png");
     z-index: 10;
     height: 210px;
     opacity: 1;
