@@ -4,7 +4,6 @@ body{
 }
 .Main-page{
     height: 700px; width: 600px;
-    border: 5px solid black;
     margin: 0 auto;
     background-image:url("3b8ad2c7b1be2caf24321c852103598a.jpg");
     background-size: cover;
@@ -17,7 +16,6 @@ body{
 }
 
 .squares-photos{
-    border:2px solid red;
     height: fit-content;
     margin-top: 90px;
     
@@ -31,7 +29,6 @@ body{
 }
 
 .squares-photos1{
-    border:2px solid black;
     height: fit-content;
     margin-top:50px;
     
