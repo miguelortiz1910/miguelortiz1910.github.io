@@ -1,59 +1,56 @@
 body{
+    height: 700px; width: 600px;
     margin: 0 auto;
-    width: 100%; height: auto;
-    background-color: pink;
 }
-.logo h1{
-    color: blue;
-    margin: 20px 60px;
-    font-family: 'Fascinate', cursive;;
-    width:300px;
-    
-    
-    }
-.logo{
-    background-image:url("https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif") ;
-    background-size: 20px;
-    width: 400px;
-    height: 100px;
-    border: 1px solid red;
-    margin: 0 40px;
-}
-.logo:hover{
-    border: 10px solid rgb(88, 8, 179);
-    transition-duration:.6s;
-    transition-timing-function:ease-in-out;
-}
-.logo img{
-    height:100px;
-    margin: 0 0 0 270px;
-    
-}
-.main-content{  
-    margin: 30px auto;
-
-}
-
-.main-content h1{
-    width: 400px;
-    margin: 0 80px;
-    
-}
-.main-content img{
-    display: block;
-    z-index: -1;
+.Main-page{
+    height: 700px; width: 600px;
+    border: 5px solid black;
     margin: 0 auto;
-    width: fit-content;
-}
-.main-content h2{
-    margin: 20px auto;
-    width: fit-content;
-    text-align:center;
-    color: pink;
+    background-image:url("3b8ad2c7b1be2caf24321c852103598a.jpg");
+    background-size: cover;
 }
 
-.main-content h2:hover{
-    background-color: black;
-    transition-duration: 2s ;
+.welcome h1{
+    text-align: center;
+    color: white;
+    font-family: 'Stick', sans-serif;
+}
 
+.squares-photos{
+    border:2px solid red;
+    height: fit-content;
+    margin-top: 90px;
+    
+}
+
+.squares-photos img{
+    border: 5px dotted black;
+    margin: 0 0 0 180px;
+    border-radius: 20%;
+    opacity: 0.6;
+}
+
+.squares-photos1{
+    border:2px solid black;
+    height: fit-content;
+    margin-top:50px;
+    
+}
+.squares-photos1 img{
+    border: 5px dotted black;
+    margin: 0 0 0 180px;
+    border-radius: 20%;
+    opacity: 0.6;
+}
+
+.squares-photos1 img:hover{
+    height: 160px;
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+.squares-photos img:hover{
+    height: 160px;
+    opacity: 1;
+    transition-duration: 0.5s;
 }
