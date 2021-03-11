@@ -1,0 +1,58 @@
+body{
+    height: 0px; width: 400px;
+    margin: 0 auto;
+    background-image:url("img/3b8ad2c7b1be2caf24321c852103598a.jpg");
+}
+.Main-page{
+    height: 700px; width: 392px;
+    margin: 0 auto;
+    text-align:center;
+    background-image:url("img/3b8ad2c7b1be2caf24321c852103598a.jpg");
+    background-size: cover;
+}
+
+.welcome h1{
+    text-align: center;
+    color: white;
+    font-family: 'Stick', sans-serif;
+}
+/*Snapchat*/
+.snapchat{
+    margin-top: 50px;
+}
+.snapchat img{
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+}
+.snapchat h2{
+    color: white;
+    float: right;
+    margin-right: 50px;
+}
+/*Facebook*/
+.facebook{
+    margin-top: 75px;
+}
+.facebook img{
+    height: 100px;
+    border-radius: 50%;
+}
+.facebook h2{
+    color: white;
+    float: right;
+    margin-right: 50px;
+}
+/*instagram*/
+.instagram{
+    margin-top: 50px;
+}
+.instagram img{
+    height: 100px;
+    border-radius: 50%;
+}
+.instagram h2{
+    color: white;
+    float: right;
+    margin-right: 50px;
+}
