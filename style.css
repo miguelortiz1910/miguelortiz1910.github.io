@@ -1,63 +1,77 @@
-body{
-    height: 0px; width: 400px;
-    margin: 0 auto;
-    background-image:url("3b8ad2c7b1be2caf24321c852103598a.jpg");
+body {
+  height: 0px;
+  width: 400px;
+  margin: 0 auto;
+  background-image: url("img/background.jpg");
 }
-.Main-page{
-    height: 700px; width: 392px;
-    margin: 0 auto;
-    text-align:center;
-    background-image:url("3b8ad2c7b1be2caf24321c852103598a.jpg");
-    background-size: cover;
+.Main-page {
+  height: 700px;
+  width: 392px;
+  margin: 0 auto;
+  text-align: center;
+  background-image: url("img/background.jpg");
+  background-size: cover;
 }
 
-.welcome h1{
-    text-align: center;
+
+.welcome h1 {
+  text-align: center;
+  color: yellow;
+  font-family: "Stick", sans-serif;
+}
+.welcome h4{
     color: white;
-    font-family: 'Stick', sans-serif;
 }
 
-.squares-photos{
-    height: fit-content;
-    margin-top: 90px;
-    
+.Bullet-points ul{
+    margin: 0 auto;
+    width: 300px;
+    font-size: 25px;
 }
 
-.squares-photos img{
-    border: 5px dotted black;
-    margin: 0 0 0 0px;
-    border-radius: 20%;
-    opacity: 0.6;
+.Bullet-points li{
+    color: white;
+    margin: 2%;
+}
+.squares-photos {
+  height: fit-content;
+  margin-top: 70px;
 }
 
-.squares-photos1{
-    height: fit-content;
-    margin-top:150px;
-    
-}
-.squares-photos1 img{
-    border: 5px dotted black;
-    margin: 0 0 0 0px;
-    border-radius: 20%;
-    opacity: 0.8;
+.squares-photos img {
+  border: 2px dotted yellow;
+  margin: 0 0 0 0px;
+  border-radius: 20%;
+  opacity: 0.6;
 }
 
-.squares-photos1 img:hover{
-    height: 65px;
-    opacity: 1;
-    transition-duration: 0.5s;
+.squares-photos1 {
+  height: fit-content;
+  margin-top: 150px;
+}
+.squares-photos1 img {
+  border: 5px dotted black;
+  margin: 0 0 0 0px;
+  border-radius: 20%;
+  opacity: 0.8;
 }
 
-.squares-photos img:hover{
-    background-image: url("Untitled.png");
-    z-index: 10;
-    height: 210px;
-    opacity: 1;
-    transition-duration: 0.5s;
+.squares-photos1 img:hover {
+  height: 65px;
+  opacity: 1;
+  transition-duration: 0.5s;
 }
 
-.squares-photos h3{
-    font-size: 22px;
-    font-family: 'Stick', sans-serif;
-    color: rgb(167, 160, 160);
+.squares-photos img:hover {
+  background-image: url("img/Untitled.png");
+  z-index: 10;
+  height: 210px;
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.squares-photos h3 {
+  font-size: 22px;
+  font-family: "Stick", sans-serif;
+  color: rgb(167, 160, 160);
 }
